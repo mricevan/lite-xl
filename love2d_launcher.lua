@@ -2,7 +2,7 @@
 local core = require "core"
 
 local keymap = require "core.keymap"
-local love_executable = "love ."
+local love_executable = "love ."  -- change this path if needed.
 
 keymap.add({
   ["ctrl+r"] = function()
